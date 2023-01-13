@@ -1,3 +1,35 @@
 header{
+      display: flex;
+      gap: 60px;
+      justify-content: center;
+      align-items: center;
+
+}
+
+.logo{
+
+}
+
+nav ul{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      list-style: none;
+
+}
+nav ul li{
+      height: 100%;
+      padding: 20px 0;
+
+}
+nav ul li:hover{
+      border-bottom: 1px solid blue;
+}
+
+nav ul li a{
       color: black;
+      text-decoration: none;
+}
+nav ul li a:hover{
+      color: blue;
 }
