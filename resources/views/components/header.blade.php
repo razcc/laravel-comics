@@ -1,14 +1,17 @@
 <header>
-      {{-- Logo --}}
+    {{-- Logo --}}
     <div class="logo">
-        <img src="{{ asset('images/dc-logo.png') }}" alt="Logo">
+        <a href="{{ route('home') }}">
+            <img src="{{ asset('images/dc-logo.png') }}" alt="Logo">
+        </a>
+
     </div>
 
     {{-- Navbar --}}
     <nav>
         <ul>
-            <li><a href="#">Characters</a></li>
-            <li><a href="#">Comics</a></li>
+            <li><a href="{{ route('home') }}">HOME</a></li>
+            <li><a href="{{ route('comics') }}">Comics</a></li>
             <li><a href="#">Movies</a></li>
             <li><a href="#">tv</a></li>
             <li><a href="#">Games</a></li>

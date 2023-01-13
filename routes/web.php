@@ -14,8 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
-Route::get('book', function () {
-    return view('singleBook');
-});
+    return view('pages.home');
+}) ->name('home');
+
+
+Route::get('comics', function () {
+
+    $comics = config('comics');
+
+    // dd($comics);
+    return view('pages.comics.index');
+})->name('comics');

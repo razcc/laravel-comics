@@ -5,5 +5,8 @@
 @section('page-title', 'home-page')
 
 @section('main-content')
-    <h2>MAIN SECTION HOME PAGE</h2>
+<div  class="title_home">
+      <h1>Home Page</h1>
+</div>
+  
 @endsection

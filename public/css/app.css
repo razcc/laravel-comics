@@ -41,6 +41,13 @@ main {
   background-color: blue;
 }
 
+.title_home {
+  height: 50vh;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
 .footer {
   background-image: url('../images/footer-bg.jpg');
   color: white;
