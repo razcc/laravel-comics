@@ -7,7 +7,9 @@ header{
 }
 
 .logo{
-
+}
+.logo img{
+      width: 50%;
 }
 
 nav ul{
@@ -15,6 +17,8 @@ nav ul{
       align-items: center;
       gap: 20px;
       list-style: none;
+      height: 100%;
+
 
 }
 nav ul li{

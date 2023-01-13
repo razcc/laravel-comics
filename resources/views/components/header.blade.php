@@ -1,7 +1,7 @@
 <header>
       {{-- Logo --}}
     <div class="logo">
-        <img src="{{ asset('images/dc-logo') }}" alt="Logo">
+        <img src="{{ asset('images/dc-logo.png') }}" alt="Logo">
     </div>
 
     {{-- Navbar --}}
