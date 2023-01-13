@@ -12,16 +12,16 @@
 
 
     <div class="single_comic_cont">
-        {{-- Title --}}
-        <h2>{{ $singleComic['title'] }}</h2>
-
         {{-- Copertina Cont --}}
         <div class="copertina_show_cont">
             <img src="{{ $singleComic['thumb'] }}" alt="">
         </div>
 
+        {{-- Title --}}
+        <h2>{{ $singleComic['title'] }}</h2>
 
-
+        {{-- Description --}}
+        <div class="description"> {{ $singleComic['description'] }} </div>
     </div>
 
 @endsection
