@@ -10,8 +10,8 @@
     </div>
 
     <div class="comics_cont">
-        @foreach ($comics as $elem)
-            <a class="link_comic" href="">
+        @foreach ($comics as $id => $elem)
+            <a class="link_comic" href="{{ route('index.show', compact('id')) }}">
                 <div class="card">
                     <div>
                         <img class="copertina" src="{{ $elem['thumb'] }}" alt="">
@@ -21,6 +21,7 @@
 
             </a>
         @endforeach
+
 
 
     </div>

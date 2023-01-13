@@ -25,3 +25,15 @@ Route::get('comics', function () {
     // dd($comics);
     return view('pages.comics.index', compact('comics'));
 })->name('comics');
+
+
+
+// Single Comic
+Route::get('single_comic/ {id}', function ($id) {
+
+    $comics = config('comics');
+
+     $singleComic = $comics[$id];
+    return view('pages.comics.show', compact('singleComic'));
+
+})->name('index.show');
