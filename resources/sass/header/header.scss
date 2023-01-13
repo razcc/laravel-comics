@@ -5,9 +5,6 @@ header{
       align-items: center;
 
 }
-
-.logo{
-}
 .logo img{
       width: 50%;
 }
@@ -17,15 +14,15 @@ nav ul{
       align-items: center;
       gap: 20px;
       list-style: none;
-      height: 100%;
-
 
 }
+
 nav ul li{
       height: 100%;
       padding: 20px 0;
 
 }
+
 nav ul li:hover{
       border-bottom: 1px solid blue;
 }

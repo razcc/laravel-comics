@@ -1,0 +1,25 @@
+.comics_cont{
+      padding: 40px 0;
+      width: 80%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+}
+.jumbo_cont {
+      height: 300px;
+      width: 100%;
+      background-image: url('../images/jumbotron.jpg');
+
+}
+
+.card{
+      color: white;
+
+
+
+}
+
+.link_comic{
+      width: calc(100% / 6);
+      text-decoration: none;
+}

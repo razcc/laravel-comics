@@ -5,8 +5,6 @@ header {
   align-items: center;
 }
 
-
-
 .logo img {
   width: 50%;
 }
@@ -16,7 +14,6 @@ nav ul {
   align-items: center;
   gap: 20px;
   list-style: none;
-  height: 100%;
 }
 
 nav ul li {
@@ -38,7 +35,7 @@ nav ul li a:hover {
 }
 
 main {
-  background-color: blue;
+  background-color: #1C1C1C;
 }
 
 .title_home {
@@ -58,7 +55,6 @@ main {
 .cont_footer {
   width: 70%;
   margin: auto;
-  overflow: hidden;
   padding: 30px 0;
 }
 
@@ -90,6 +86,29 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 20px 100px;
+}
+
+.comics_cont {
+  padding: 40px 0;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jumbo_cont {
+  height: 300px;
+  width: 100%;
+  background-image: url('../images/jumbotron.jpg');
+}
+
+.card {
+  color: white;
+}
+
+.link_comic {
+  width: calc(100% / 6);
+  text-decoration: none;
 }
 
 * {
