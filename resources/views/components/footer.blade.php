@@ -1,5 +1,5 @@
-<footer>
-    <div class="container">
+<footer class="footer">
+    <div class="cont_footer">
         <div class="menu">
             <!-- Col 1 -->
             <div>
@@ -56,22 +56,25 @@
 
         {{-- Cont Scritta in basso --}}
         <div class="text">
-            All Site Content TM and 2020 DC Entertainment, unless otherwise noted here. All rights reserved.
+            All Site Content TM and 2020 DC Entertainment, <br> unless otherwise noted here. All rights reserved. <br>
             <a href="#">Cookies Settings</a>
         </div>
 
-        <img src="../../assets/img/dc-logo-bg.png" alt="">
+        <img class="footer_img_grande" src="{{ asset('../images/dc-logo-bg.png') }}" alt="Footer img">
 
     </div>
+</footer>
+
+
+{{-- Social --}}
+<div class="footer_social">
+      <div>
+            <button>Sign-up now</button>
+
+      </div>
 
     {{-- Social --}}
-    <div class="social_cont">
-        <button>Sign-up now</button>
-
-        {{-- Social --}}
-        <div class="social_icon_cont">
-            Social
-        </div>
+    <div class="social_icon_cont">
+        Social
     </div>
-
-</footer>
+</div>
