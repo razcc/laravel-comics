@@ -6,7 +6,7 @@
 
 @section('main-content')
 <div  class="title_home">
-      <h1>Home Page</h1>
+      <h1>Home Page</h1> <span>test push </span>
 </div>
   
 @endsection

@@ -29,11 +29,12 @@ Route::get('comics', function () {
 
 
 // Single Comic
-Route::get('single_comic/ {id}', function ($id) {
+Route::get('single_comic/{id}', function ($id) {
 
     $comics = config('comics');
 
      $singleComic = $comics[$id];
+
     return view('pages.comics.show', compact('singleComic'));
 
 })->name('index.show');
